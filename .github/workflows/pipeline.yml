@@ -45,7 +45,7 @@ jobs:
           echo "Build OK!"
 
       # ❌ PASSO A IMPLEMENTAR — Secrets Scanning com Gitleaks
-      # Dica: use a action oficial "gitleaks/gitleaks-action@v2" e passe o
+      # Dica: use a action oficial "gitleaks/gitleaks-action@v2" e passe o 
       - name: 🔑 Secrets Scanning
         uses: gitleaks/gitleaks-action@v2
 
