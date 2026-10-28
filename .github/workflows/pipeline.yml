@@ -64,9 +64,9 @@ jobs:
       #   curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
       # E rode:
       #   grype dir:. --fail-on medium
-      - name: 📦 SCA - Grype # "implemente o SCA com Grype aqui"
+      - name: 📦 SCA - Grype 
         run: |
-          npm install ==package-lock-only --no-audit --no-fund
+          npm install --package-lock-only --no-audit --no-fund
           curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
           grype dir:./ --fail-on medium
 
