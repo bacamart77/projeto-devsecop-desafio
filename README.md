@@ -57,5 +57,5 @@ Fazer isso pela primeira vez confesso que não foi fácil. Abaixo, listo os prin
 
 
 
-## URL de Produção
-> Adicione aqui o link do GitHub Pages após o deploy.
+## URL de Prod
+https://bacamart77.github.io/projeto-devsecop-desafio
